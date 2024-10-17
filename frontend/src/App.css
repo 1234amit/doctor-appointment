@@ -52,3 +52,15 @@ body {
     display: block;
   }
 }
+
+.loginBack {
+  background-image: url("./assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.serviceBtn {
+  background-color: cornflowerblue;
+  color: #fff;
+  font-weight: 900;
+}
