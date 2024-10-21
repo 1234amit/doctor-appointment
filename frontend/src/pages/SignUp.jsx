@@ -87,25 +87,6 @@ const SignUp = () => {
               />
             </div>
 
-            {/* Username Input */}
-            <div className="mb-4">
-              <label
-                className="block text-gray-700 font-semibold mb-2"
-                htmlFor="username"
-              >
-                Username
-              </label>
-              <input
-                id="username"
-                type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Enter your username"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                required
-              />
-            </div>
-
             {/* Password Input */}
             <div className="mb-4">
               <label
@@ -128,7 +109,7 @@ const SignUp = () => {
             {/* Role Selection */}
             <div className="mb-4">
               <label className="block text-gray-700 font-semibold mb-2">
-                Role
+                Are You
               </label>
               <select
                 value={role}
