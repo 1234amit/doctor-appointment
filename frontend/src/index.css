@@ -26,11 +26,12 @@
   }
 
   .header {
-    @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px];
+    /* @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px]; */
+    @apply w-full h-[100px] leading-[100px] shadow-xl;
   }
 
   .hero__section {
-    @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-center bg-cover;
+    /* @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-center bg-cover; */
   }
 }
 
@@ -51,5 +52,9 @@
 
   .text__para {
     @apply text-[16px] leading-7 mt-3;
+  }
+
+  .home-image {
+    @apply flex-col;
   }
 }

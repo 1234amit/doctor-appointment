@@ -1,0 +1,14 @@
+.homeImage {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .homeImage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeImage img {
+    width: 90%;
+  }
+}

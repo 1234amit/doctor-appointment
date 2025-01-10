@@ -1,7 +1,8 @@
 import React from "react";
 import heroImg01 from "../assets/images/hero-img01.png";
-import heroImg02 from "../assets/images/hero-img02.png";
-import heroImg03 from "../assets/images/hero-img03.png";
+import heroImg011 from "../assets/images/heroImg11.webp";
+import heroImg02 from "../assets/images/1st.webp";
+import heroImg03 from "../assets/images/2nd.webp";
 import icon01 from "../assets/images/icon01.png";
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
@@ -13,6 +14,7 @@ import About from "../components/About/About";
 import ServicesList from "../components/Services/ServicesList";
 import DoctorList from "../components/Doctors/DoctorList";
 import FaqList from "../components/faq/faqList";
+import "./All.css";
 
 const Home = () => {
   return (
@@ -25,21 +27,21 @@ const Home = () => {
             <div>
               <div className="lg:w-[570px]">
                 <h1 className="text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px]md:leading-[70px]">
-                  We help Patients live a healthy, longer life
+                  Welcome to Our Clinic Doctor Appointment System
                 </h1>
                 <p className="text__para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                  debitis at architecto et enim, alias nemo repellendus quis
-                  nesciunt inventore facere. Libero, doloremque officiis totam
-                  ut assumenda inventore dolores laboriosam?
+                  Manage your medical appointments efficiently and securely with
+                  our system, which ensures seamless communication between
+                  patients and doctors. Easily book, reschedule, and manage your
+                  appointments to suit your convenience.
                 </p>
                 <button className="btn">Request and Appointment</button>
               </div>
               {/* hero counter */}
-              <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
+              {/* <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
                 <div>
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[900] text-headingColor">
-                    30+
+                    60+
                   </h2>
                   <span className="w-[100px] h-2 bg-yellow-500 rounded-full block mt-[-14px]"></span>
                   <p className="text__para">Years of Experience</p>
@@ -47,7 +49,7 @@ const Home = () => {
 
                 <div>
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[900] text-headingColor">
-                    15+
+                    6+
                   </h2>
                   <span className="w-[100px] h-2 bg-purpleColor rounded-full block mt-[-14px]"></span>
                   <p className="text__para">Clinic Location</p>
@@ -60,17 +62,29 @@ const Home = () => {
                   <span className="w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]"></span>
                   <p className="text__para">Patient Satisfaction</p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* hero content right */}
-            <div className="flex gap-[30px] justify-end">
+            <div className="flex gap-[20px] justify-end homeImage">
               <div>
-                <img className="w-full" src={heroImg01} alt="hero-image" />
+                <img
+                  className="w-full rounded-md"
+                  src={heroImg011}
+                  alt="hero-image"
+                />
               </div>
               <div className="mt-[30px]">
-                <img src={heroImg02} alt="" className="w-full mb-[30px]" />
-                <img src={heroImg03} alt="" className="w-full " />
+                <img
+                  src={heroImg02}
+                  alt=""
+                  className="w-[430px] h-[270px] mb-[30px] rounded-lg"
+                />
+                <img
+                  src={heroImg03}
+                  alt=""
+                  className="w-[430px] h-[270px] rounded-lg"
+                />
               </div>
             </div>
           </div>
